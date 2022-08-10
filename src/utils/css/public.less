@@ -1,0 +1,98 @@
+.form {
+  .ant-form-item {
+    height: 0.8rem;
+    margin-bottom: 0;
+  }
+  .ant-form-item-explain {
+    padding-top: 0;
+    .ant-form-item-explain-error {
+      color: #fff;
+      font-size: 0.16rem;
+    }
+  }
+  .ant-input {
+    height: 0.38rem;
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    padding: 4px 0.2rem;
+    font-size: 0.16rem;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: none !important;
+    &::placeholder {
+      color: #fff;
+    }
+  }
+  .ant-input-password {
+    height: 0.38rem;
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    padding: 4px 0.2rem;
+    border-radius: 2px;
+    box-shadow: none !important;
+    &:focus,
+    &:hover {
+      border: 1px solid #fff !important ;
+    }
+    .ant-input {
+      height: auto;
+      background-color: transparent !important;
+      border: none;
+      border-radius: 0;
+
+      &:hover,
+      &:focus {
+        border: none !important ;
+      }
+    }
+    .ant-input-password-icon {
+      color: #fff;
+    }
+  }
+  .ant-form-item-control-input {
+    min-height: auto;
+  }
+  .ant-form-item-has-error {
+    .ant-input {
+      background-color: transparent !important;
+      border-color: #111 !important;
+    }
+    .ant-input-password {
+      border-color: #111 !important;
+      .ant-input {
+        background-color: transparent !important;
+      }
+    }
+  }
+}
+
+// 是否登录弹窗
+.loginmodalbox {
+  width: 5rem !important;
+  z-index: 10000;
+  .ant-modal-body {
+    padding: 0.2rem;
+    .ant-modal-confirm-btns {
+      // width: 100%;
+      // display: flex;
+      // justify-content: center;
+      .ant-btn {
+        width: 1.2rem;
+        height: 0.48rem;
+        border-color: #111;
+        box-shadow: none !important;
+        color: #111;
+        &:hover {
+          border-color: #111;
+          color: #111;
+        }
+        &:last-child {
+          margin-left: 0.3rem;
+          background-color: #ce3964;
+          border: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.headerlogo {
+  max-width: 19.2rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0em 0.84rem 0 0.9rem;
+  border-bottom: 1px solid #ccc;
+  .logo {
+    width: 2.8rem;
+    height: auto;
+    cursor: pointer;
+  }
+  .lang {
+    .lang_select {
+      border: 1px solid #cccccc;
+      line-height: 0.3rem;
+      .ant-select-selector {
+        height: 100%;
+        line-height: 0.3rem;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        box-shadow: none;
+
+        .ant-select-selection-search-input {
+          height: 100%;
+          // line-height: 0.3rem;
+          font-size: 0.16rem;
+          color: #000;
+        }
+        .ant-select-selection-item {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+.ant-select-dropdown {
+  .ant-select-item {
+    min-height: 0.3rem;
+    padding: 0 0.12rem;
+  }
+}

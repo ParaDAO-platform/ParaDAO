@@ -1,0 +1,220 @@
+.basic_setting {
+  .my_info_con {
+    color: #333333;
+    position: relative;
+    min-height: 79vh;
+    background-color: rgba(248, 226, 232, 0.2);
+    display: flex;
+    justify-content: center;
+    font-family: BinancePlex, Arial, sans-serif !important;
+
+    
+    .info-title {
+      width: 2.5rem;
+      
+      
+      display: flex;
+
+      .setting {
+        width: 1.5rem;
+        font-weight: 400;
+        position: relative;
+        color: #333333;
+        font-size: 0.24rem;
+
+        .mini_box {
+          width: 0.1rem;
+          height: 0.1rem;
+          background-color: #ce3964;
+          position: absolute;
+          top: 0rem;
+          z-index: -1;
+        }
+      }
+    }
+
+    .info_body {
+      width: 9.5rem;
+      
+      padding-bottom: 0.58rem;
+      padding-top: 1.45rem;
+
+      .item {
+        color: #656565;
+        font-size: 0.24rem;
+        margin-bottom: 0.3rem;
+
+        .title {
+          margin-bottom: 0.2rem;
+          font-size: 0.18rem;
+          color: #333333;
+          font-weight: 700;
+
+          .mini_box {
+            width: 0.1rem;
+            height: 0.1rem;
+            background-color: #ce3964;
+            margin-bottom: 0.1rem;
+          }
+        }
+
+        .details_box {
+          display: flex;
+          justify-content: space-between;
+
+          .btn {
+            cursor: pointer;
+            width: 1.3rem;
+            height: 0.4rem;
+            font-size: 0.14rem;
+            text-align: center;
+            line-height: 0.4rem;
+            font-weight: 700;
+            color: #000;
+            cursor: pointer;
+            background: url("../../assets/img/userdrawer/out.png");
+            background-size: 100% 100%;
+
+            &:hover {
+              color: #ce3964;
+            }
+          }
+        }
+      }
+    }
+
+    
+    .line-back {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 5.21rem;
+      height: 1.48rem;
+      background: url("../../assets/img/user/userinfo_br.png");
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.acount_modal {
+  
+  font-family: BinancePlex, Arial, sans-serif !important;
+  .ant-modal-content {
+    
+    box-shadow: none;
+    border-radius: .1rem;
+    .modal_box {
+      .modal_content {
+        width: 90%;
+        .title {
+          font-size: 16px;
+          margin-bottom: 0.3rem;
+        }
+
+        .username,
+        .password,
+        .confirm_password {
+          display: flex;
+          margin-bottom: 0.3rem;
+          align-items: center;
+
+          > div {
+            font-size: 14px;
+            width: 1.5rem;
+          }
+
+          .ant-input {
+            width: calc(100% - 1.5rem);
+            background-color: transparent;
+            border: 1px solid #cbcbcb;
+            border-radius: 0.02rem;
+            
+          }
+        }
+
+        .code_box {
+          display: flex;
+          margin-bottom: 0.3rem;
+          align-items: center;
+
+          .label {
+            font-size: 14px;
+            width: 1.5rem;
+          }
+
+          .flex {
+            width: calc(100% - 1.5rem);
+            display: flex;
+            align-items: center;
+            
+          }
+
+          .ant-input {
+            flex: 1;
+            background-color: transparent;
+            border: 1px solid #cbcbcb;
+            border-radius: 0.02rem;
+            
+          }
+
+          .send_code {
+            height: 0.38rem;
+            width: 0.8rem;
+            margin-left: 0.1rem;
+            background: url("../../assets/img/login/send.png");
+            background-size: 100% 100%;
+            cursor: pointer;
+            text-align: center;
+            line-height: 0.38rem;
+            color: #000;
+            border-radius: 2px;
+          }
+        }
+
+        .btn_box {
+          margin-top: 0.2rem;
+          display: flex;
+          justify-content: space-between;
+
+          .btn {
+            width: 1.17rem;
+            height: 0.38rem;
+            text-align: center;
+            line-height: 0.38rem;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+
+            &:first-child {
+              
+              border: 1px solid #ccc;
+              border-radius: 2px;
+            }
+
+            &:last-child {
+              background: url("../../assets/img/dashboard/btn-bg.png");
+              color: #333333;
+            }
+          }
+        }
+      }
+    }
+
+    .del_confirm {
+      .modal_content {
+        .title {
+          margin-bottom: 0.3rem;
+        }
+
+        .desc {
+          font-size: 14px;
+          text-align: center;
+        }
+
+        .btn_box {
+          margin-top: 0.3rem;
+        }
+      }
+    }
+  }
+}

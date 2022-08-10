@@ -1,0 +1,333 @@
+.dashboard {
+  width: 100%;
+
+  background: rgba(248, 226, 232, 0.2);
+  position: relative;
+  .content_box {
+    width: 12rem;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    font-family: BinancePlex, Arial, sans-serif !important;
+    min-height: 79vh;
+
+    .dashboard_tab {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.45rem;
+
+      .title_box {
+        display: flex;
+        align-items: center;
+        margin-right: 0.3rem;
+        font-size: 0.18rem;
+        cursor: pointer;
+        padding: 0.1rem 0.2rem;
+        border-radius: 0.05rem;
+        &.active {
+          background-color: #ce3964;
+          color: #fff;
+        }
+
+        > img {
+          height: 0.254rem;
+          margin-right: 0.05rem;
+        }
+      }
+    }
+
+    .flex_box {
+      .flex_box_con {
+        display: flex;
+        justify-content: space-between;
+        min-height: 60vh;
+        .left_box {
+          width: 8rem;
+          box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.2);
+          padding-bottom: 0.2rem;
+
+          .tab_box {
+            padding: 0.3rem 0.34rem 0 0.48rem;
+            display: flex;
+            align-items: center;
+
+            
+            .title_box {
+              display: flex;
+              align-items: center;
+              margin-right: 0.5rem;
+              font-size: 0.18rem;
+              cursor: pointer;
+
+              &.active {
+                color: #ce3964;
+              }
+            }
+          }
+
+          .mechanism_box {
+            width: 100%;
+            padding: 0 0.2rem;
+            padding-top: 0.3rem;
+
+            .item {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              padding: 0.2rem 0.14rem;
+
+              .img_box {
+                width: 0.72rem;
+                margin-right: 0.2rem;
+                font-size: 0;
+
+                .img {
+                  width: 0.72rem;
+                  height: auto;
+                }
+              }
+
+              .flex_content {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+
+                .title_box {
+                  display: flex;
+                  justify-content: space-between;
+
+                  .title {
+                    font-size: 0.18rem;
+                    cursor: pointer;
+                  }
+
+                  .time {
+                    font-size: 0.14rem;
+                    color: #808080;
+                  }
+                }
+
+                .message_box {
+                  
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 0.18rem;
+                  span {
+                    flex: 1 1;
+                    text-align: left;
+                    &:last-child {
+                      text-align: right;
+                    }
+                  }
+                }
+              }
+
+              &:hover {
+                background-color: #ce3964;
+                color: #fff;
+
+                .time {
+                  font-size: 0.14rem;
+                  color: #fff !important;
+                }
+              }
+            }
+          }
+
+          .company_box {
+            width: 100%;
+            padding: 0 0.2rem;
+            padding-top: 0.3rem;
+
+            .item {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0.2rem 0.14rem;
+
+              .img_box {
+                width: 0.72rem;
+                font-size: 0;
+
+                .img {
+                  width: 0.72rem;
+                  height: auto;
+                }
+              }
+
+              .flex_content {
+                width: 6.4rem;
+                .title_box {
+                  display: flex;
+                  justify-content: space-between;
+                  .title {
+                    font-size: 0.18rem;
+                    cursor: pointer;
+                  }
+
+                  .time {
+                    font-size: 0.14rem;
+                    color: #808080;
+                  }
+                }
+
+                .message_box {
+                  
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 0.18rem;
+
+                  > span {
+                    flex: 1;
+                    text-align: left;
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  }
+                  .mechanism {
+                    display: flex;
+                    overflow: hidden;
+                    .mechanism_con {
+                      overflow: hidden;
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      > span {
+                        &:last-child {
+                          .douhao {
+                            display: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              &:hover {
+                background-color: #ce3964;
+                color: #fff;
+
+                .time {
+                  font-size: 0.14rem;
+                  color: #fff !important;
+                }
+              }
+            }
+          }
+
+          .boardbox {
+            display: flex;
+            padding: 0.43rem;
+            flex-wrap: wrap;
+
+            .item {
+              width: 2.28rem;
+              cursor: pointer;
+              margin-right: 0.15rem;
+              margin-bottom: 0.15rem;
+              background-color: #fff;
+
+              &:nth-child(3n) {
+                margin-right: 0;
+              }
+
+              > img {
+                width: 2.28rem;
+                height: 1.58rem;
+              }
+
+              .box {
+                padding: 0 0.18rem 0.18rem 0.18rem;
+                
+
+                .title {
+                  font-size: 0.16rem;
+                  margin-top: 0.15rem;
+                  color: #333333;
+                }
+
+                .desc {
+                  width: 100%;
+                  font-size: 0.16rem;
+                  margin-top: 0.12rem;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  color: #666666;
+                }
+
+                .bottom_box {
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 0.12rem;
+                  color: #808080;
+                }
+              }
+
+              &:hover {
+                .box {
+                  background-color: #ce3964;
+                  border: 1px solid #ce3964;
+
+                  .title,
+                  .desc,
+                  .bottom_box {
+                    color: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .right_box {
+          width: 3.3rem;
+          height: 2.5rem;
+          box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.2);
+          padding: 0.3rem 0.4rem;
+
+          .title {
+            font-size: 0.18rem;
+            color: #333333;
+            margin-bottom: 0.36rem;
+          }
+
+          .statistical_box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.18rem;
+
+            .num {
+              width: 100%;
+              text-align: center;
+              margin-top: 0.22rem;
+            }
+          }
+        }
+      }
+    }
+    .pagination {
+      margin-top: 0.3rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    
+    .line-back {
+      position: absolute;
+      right: 0;
+      bottom: 3rem;
+      width: 5.21rem;
+      height: 1.48rem;
+      background: url("../../assets/img/user/userinfo_br.png");
+      background-size: 100% 100%;
+    }
+  }
+}

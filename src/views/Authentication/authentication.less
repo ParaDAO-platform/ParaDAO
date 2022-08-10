@@ -1,0 +1,404 @@
+.authentication {
+  color: #000;
+  .identity_con {
+    width: 100%;
+    min-height: 76vh;
+    background: rgba(248, 226, 232, 0.2);
+    font-family: BinancePlex, Arial, sans-serif !important;
+    .con {
+      width: 12rem;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      padding-bottom: 0.5rem;
+      .left {
+        width: 2.5rem;
+        height: 100%;
+        font-size: 0.28rem;
+        color: #333;
+        position: relative;
+        .mini_box {
+          position: absolute;
+          width: 0.2rem;
+          height: 0.2rem;
+          background-color: #ce3964;
+          z-index: -1;
+        }
+      }
+      .right {
+        width: 9.5rem;
+        height: 100%;
+        padding-top: 0.5rem;
+        .right_top {
+          display: flex;
+          align-items: center;
+          font-size: 0.18rem;
+          color: #808080;
+          .icon {
+            margin: 0 0.1rem;
+          }
+        }
+        .tab {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 0.4rem;
+          .business_card {
+            width: 2.9rem;
+            height: 1.7rem;
+            margin-bottom: 0.2rem;
+            margin-right: 0.4rem;
+            &:nth-child(3n) {
+              margin-right: 0;
+            }
+
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .business_card_mask {
+            position: relative;
+            > img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+            .card_mask {
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: 100;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(255, 255, 255, 0.5);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 0.24rem;
+              font-weight: 700;
+              color: #ce3964;
+            }
+          }
+          .business_card_mask_failed {
+            .card_mask {
+              flex-direction: column;
+              position: relative;
+              .refusal_reasons {
+                font-size: 0.16rem;
+              }
+              .refusal_btn {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                padding: 0 0.2rem;
+                height: 0.4rem;
+                font-size: 0.16rem;
+                text-align: center;
+                line-height: 0.4rem;
+                color: #333333;
+                cursor: pointer;
+                background: #fff url("../../assets/img/userdrawer/out.png");
+                background-size: 100% 100%;
+              }
+            }
+          }
+          .add_attest {
+            background-color: #fff;
+            border: 1px solid rgba(112, 112, 112, 0.4);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 0.4rem;
+            position: relative;
+            cursor: pointer;
+            .mini_box {
+              width: 0.12rem;
+              height: 0.12rem;
+              background-color: #ce3964;
+            }
+            .add_attest_text {
+              display: flex;
+              align-items: center;
+              margin-top: 0.2rem;
+              .add_icon {
+                font-size: 0.25rem;
+                color: #ce3964;
+                margin-right: 0.1rem;
+              }
+            }
+            .rb {
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              width: 0.3rem;
+              height: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.authentication_popup {
+  width: 7rem !important;
+  color: #000;
+  font-family: BinancePlex, Arial, sans-serif !important;
+  .ant-modal-body {
+    padding: 0.24rem 0.2rem;
+    position: relative;
+    .title {
+      font-size: 0.28rem;
+      color: #333;
+      position: relative;
+      height: 0.5rem;
+      .mini_box {
+        position: absolute;
+        width: 0.2rem;
+        height: 0.2rem;
+        background-color: #e79cb2;
+      }
+      .text {
+        position: absolute;
+        left: 0.1rem;
+      }
+    }
+    .add_img {
+      width: 4.08rem;
+      height: 2.34rem;
+      background: #ffffff;
+      border: 1px solid rgba(112, 112, 112, 0.16078431372549018);
+      box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.2);
+      margin: 0.2rem auto;
+      .add_img_dragger {
+        border: none;
+        background-color: #fff;
+        .ant-upload {
+          padding: 0;
+        }
+        .show_add_img {
+          width: 4.08rem;
+          height: 2.34rem;
+
+          > img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        .dragger_con {
+          width: 100%;
+          height: 100%;
+          > img {
+            width: 0.42rem;
+            height: 0.42rem;
+            margin-top: 0.4rem;
+          }
+          .upload_text {
+            font-size: 0.18rem;
+            color: #4d4d4d;
+            margin-top: 0.15rem;
+          }
+          .sizi_text {
+            font-size: 0.16rem;
+            color: #4d4d4d;
+            margin-top: 0.1rem;
+          }
+        }
+      }
+    }
+    .certified_identity {
+      font-size: 0.2rem;
+      color: #4d4d4d;
+    }
+    .choose {
+      height: 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.2rem;
+      .choose_left {
+        width: 1.5rem;
+        height: 100%;
+        line-height: 0.4rem;
+        font-size: 0.2rem;
+        color: #4d4d4d;
+      }
+      .choose_right {
+        flex: 1;
+        margin-left: 0.2rem;
+        height: 0.4rem;
+        background: #ffffff;
+        border: 1px solid #808080;
+        border-radius: 0.04rem;
+        padding: 0 0.14rem;
+        line-height: 0.4rem;
+        font-size: 0.14rem;
+        color: #808080;
+        .ant-input {
+          padding: 0;
+          height: 0.38rem;
+          font-size: 0.14rem;
+          color: #4d4d4d;
+        }
+        .choose_right_input_list {
+          width: 100%;
+          height: 100%;
+          .ant-input-affix-wrapper {
+            padding: 0;
+            height: 0.38rem;
+            &::before {
+              display: none;
+            }
+          }
+          .ant-input {
+            padding: 0;
+            height: 0.38rem;
+            font-size: 0.14rem;
+            color: #4d4d4d;
+          }
+          .search_img {
+            width: 0.18rem;
+            margin-left: 0.05rem;
+          }
+          .search_img_qian {
+            width: 0.18rem;
+            margin-right: 0.05rem;
+          }
+        }
+      }
+    }
+    .choose_fu {
+      width: 100%;
+      height: 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.2rem;
+      position: relative;
+      .choose_search {
+        width: 100%;
+        height: 0.4rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        margin: 0;
+        .choose_right {
+          height: 0.4rem;
+          padding: 0;
+          border: none;
+          .choose_right_con {
+            height: auto;
+            border: 1px solid #808080;
+            border-radius: 0.04rem;
+            .choose_right_input_list {
+              width: 100%;
+              height: 0.4rem;
+              padding: 0 0.14rem;
+            }
+            .choose_right_list {
+              width: 100%;
+              max-height: 2.8rem;
+              background: #fff;
+              overflow-y: scroll;
+              &::-webkit-scrollbar {
+                display: none;
+              }
+              .search_item {
+                height: 0.4rem;
+                cursor: pointer;
+                .search_img {
+                  width: 0.18rem;
+                  margin-right: 0.1rem;
+                  margin-left: 0.14rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .hint {
+      margin-top: 0.5rem;
+      font-size: 0.18rem;
+      color: #656565;
+    }
+    .process {
+      margin-top: 0.1rem;
+      font-size: 0.16rem;
+      color: #808080;
+    }
+    .btn {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5rem;
+      .submit {
+        padding: 0 0.2rem;
+        height: 0.4rem;
+        font-size: 0.16rem;
+        text-align: center;
+        line-height: 0.4rem;
+        color: #333333;
+        cursor: pointer;
+        background: url("../../assets/img/userdrawer/out.png");
+        background-size: 100% 100%;
+      }
+    }
+  }
+}
+
+.success_popup {
+  width: 4.56rem !important;
+  font-family: BinancePlex, Arial, sans-serif !important;
+  .ant-modal-body {
+    padding: 0;
+    width: 4.56rem;
+    height: 3.6rem;
+    background: url("../../assets/img/user/success.png");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .hook_img {
+      width: 1rem;
+      height: 1rem;
+    }
+    .upload_successful_text {
+      width: 3rem;
+      font-size: 0.2rem;
+      color: #fff;
+      text-align: center;
+      margin-top: 0.2rem;
+    }
+    .btn {
+      width: 1.97rem;
+      height: 0.4rem;
+      line-height: 0.4rem;
+      text-align: center;
+      background: url("../../assets/img/user/successbtnimg.png");
+      background-size: 100% 100%;
+      font-size: 0.16rem;
+      color: #fff;
+      margin-top: 0.4rem;
+      cursor: pointer;
+    }
+    .bg_img {
+      width: 5.24rem;
+      height: 2.8rem;
+      background: #fff url("../../assets/img/user/successbgtop.png");
+      background-size: 100% 100%;
+      position: absolute;
+      top: -0.38rem;
+      left: 0.87rem;
+      z-index: -1;
+    }
+  }
+}

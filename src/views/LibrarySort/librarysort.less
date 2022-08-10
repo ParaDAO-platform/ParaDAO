@@ -1,0 +1,71 @@
+.librarydetails {
+  .librarydetails_con {
+    max-width: 19.2rem;
+    margin: 0 auto;
+    background-color: rgba(248, 226, 232, 0.2);
+    padding: 0.7rem 1.5rem 0.2rem 1.5rem;
+    min-height: 70vh;
+    .librarydetails_box {
+      width: 100%;
+      min-height: 50vh;
+      margin: 0 auto;
+      padding: 0.6rem 0;
+
+      .librarydetails_list {
+        display: flex;
+        flex-wrap: wrap;
+        .list_item {
+          padding: 0.3rem;
+          background-color: #fff;
+          width: 3.8rem;
+          height: 2.2rem;
+          margin-right: 0.33rem;
+          margin-top: 0.5rem;
+
+          .list_item_top {
+            height: 0.62rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 0.32rem;
+            color: #333;
+            > img {
+              width: 0.62rem;
+              height: 0.62rem;
+              margin-right: 0.2rem;
+            }
+          }
+          .list_item_bom {
+            padding-left: 0.82rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            font-size: 0.16rem;
+            color: #666;
+          }
+
+          &:nth-child(4n) {
+            margin-right: 0;
+          }
+
+          &:hover {
+            background-color: #ce3964;
+            .list_item_top {
+              color: #fff;
+            }
+            .list_item_bom {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    .page_box {
+      display: flex;
+      margin-top: 0.3rem;
+      justify-content: center;
+    }
+  }
+}

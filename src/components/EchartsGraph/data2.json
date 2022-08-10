@@ -1,0 +1,227 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "FalconX",
+            "symbolSize": 100,
+            "value": 20,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": 1,
+            "name": "Tiger Global Management",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 3,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 307,
+            "y": 249
+        },
+        {
+            "id": 2,
+            "name": "B\n  Capital",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 5,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 374,
+            "y": 246
+        },
+        {
+            "id": 3,
+            "name": "Accel",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 149,
+            "y": 345
+        },
+        {
+            "id": 4,
+            "name": "Accomplice",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 349,
+            "y": 301
+        },
+        {
+            "id": 5,
+            "name": "American\n  Express Ventures",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 240,
+            "y": 286
+        },
+        {
+            "id": 6,
+            "name": "Coinbase Ventures",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 253,
+            "y": 368
+        },
+        {
+            "id": 7,
+            "name": "Flybridge",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 235,
+            "y": 329
+        },
+        {
+            "id": 8,
+            "name": "Lightspeed\n  Venture Partners",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 326,
+            "y": 208
+        },
+        {
+            "id": 9,
+            "name": "Avon  Ventures",
+            "symbolSize": 50,
+            "value": 1,
+            "category":2,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 129,
+            "y": 362
+        },
+        {
+            "id": 10,
+            "name": "Zokyo",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 282,
+            "y": 157
+        },
+        {
+            "id": 11,
+            "name": "Altimeter Capital",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 315,
+            "y": 231
+        },
+        {
+            "id": 12,
+            "name": "Sapphire Ventures",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 335,
+            "y": 259
+        },
+        {
+            "id": 13,
+            "name": "Mirae Asset Global Investments",
+            "symbolSize": 50,
+            "value": 1,
+            "category": 0,
+            "symbol": "https:\/\/dl.airtable.com\/.attachments\/6429d63c189ed9dc19da0263af17e423\/7f548f5f\/FalconX.jpeg",
+            "x": 221,
+            "y": 145
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 0
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 3,
+            "target": 0
+        },
+        {
+            "source": 4,
+            "target": 0
+        },
+        {
+            "source": 5,
+            "target": 0
+        },
+        {
+            "source": 6,
+            "target": 0
+        },
+        {
+            "source": 7,
+            "target": 0
+        },
+        {
+            "source": 8,
+            "target": 0
+        },
+        {
+            "source": 9,
+            "target": 0
+        },
+        {
+            "source": 10,
+            "target": 0
+        },
+        {
+            "source": 11,
+            "target": 0
+        },
+        {
+            "source": 12,
+            "target": 0
+        },
+        {
+            "source": 13,
+            "target": 0
+        }
+    ],
+    "categories": [
+        {
+            "name": "A"
+        },
+        {
+            "name": "B"
+        },
+        {
+            "name": "C"
+        },
+        {
+            "name": "D"
+        },
+        {
+            "name": "E"
+        },
+        {
+            "name": "F"
+        },
+        {
+            "name": "G"
+        },
+        {
+            "name": "H"
+        },
+        {
+            "name": "I"
+        }
+    ]
+}

@@ -1,0 +1,623 @@
+@keyframes extend {
+  from {
+    width: 0;
+    height: 0.04rem;
+  }
+  to {
+    width: 1.5rem;
+    height: 0.04rem;
+  }
+}
+.mechanismdetails {
+  .mechanismdetails_con {
+    max-width: 19.2rem;
+    margin: 0 auto;
+    display: flex;
+    .mechanismdetails_left {
+      width: 13rem;
+      background-color: rgba(248, 226, 232, 0.2);
+      padding: 0.8rem 1.5rem 1.5rem;
+      .mechanismdetails_left_con {
+        width: 9.8rem;
+
+        .title {
+          font-size: 0.24rem;
+          color: #666666;
+          .title_one {
+            position: relative;
+            .title_box {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 0.1rem;
+              height: 0.1rem;
+              background-color: #e79cb2;
+              z-index: -1;
+            }
+          }
+          .name {
+            color: #000;
+          }
+        }
+        .left_top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          // margin-top: 0.16rem;
+          .flex {
+            display: flex;
+            align-items: center;
+          }
+          .left_top_info {
+            display: flex;
+            align-items: center;
+            > img {
+              width: 0.56rem;
+              height: 0.56rem;
+              margin-right: 0.4rem;
+            }
+            .left_title {
+              font-size: 0.32rem;
+              color: #000;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+          }
+          .left_top_track {
+            text-align: center;
+            color: #000;
+            font-size: 0.24rem;
+            font-weight: 700;
+            margin-right: 0.2rem;
+          }
+          .left_top_follow {
+            text-align: center;
+            color: #000;
+            font-size: 0.24rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            .follow_number {
+              margin-left: 0.1rem;
+            }
+          }
+        }
+        .category {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 0.25rem;
+          .category_item {
+            padding: 0 0.2rem;
+            height: 0.4rem;
+            line-height: 0.45rem;
+            font-size: 0.18rem;
+            color: #000;
+            text-align: center;
+            background: url("../../assets/img/mechanism/categorybg.png");
+            background-size: 100% 100%;
+            margin-right: 0.36rem;
+            font-weight: 700;
+            cursor: pointer;
+          }
+        }
+        .agency_presentation {
+          width: 100%;
+          min-height: 2.9rem;
+          background-color: #fff;
+          box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.1);
+          margin-top: 0.8rem;
+          padding: 0.23rem 0.34rem 1rem 0.23rem;
+          position: relative;
+          .lt_box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.15);
+          }
+          .lb_box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.15);
+          }
+          .rb_box {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0.6rem;
+            height: 0.6rem;
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .min_box {
+            width: 0.1rem;
+            height: 0.1rem;
+            background-color: #ce3964;
+          }
+          .title {
+            font-size: 0.18rem;
+            color: #333;
+            margin-top: 0.15rem;
+          }
+          .text {
+            margin-top: 0.25rem;
+            font-size: 0.16rem;
+            // font-family: "PoppinsRegular";
+            color: #666666;
+            .text_rwo {
+              display: flex;
+              margin-top: 0.2rem;
+              .text_left {
+                .text_title {
+                  white-space: nowrap;
+                  text-align: left;
+                  margin-right: 0.1rem;
+                }
+              }
+              .text_right {
+                .text_txt {
+                  a {
+                    color: #666666;
+                    &:hover {
+                      color: #ce3964;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .team_introduction {
+          width: 100%;
+          min-height: 3.4rem;
+          background-color: #fff;
+          box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.1);
+          margin-top: 0.55rem;
+          padding: 0.23rem 0.34rem 1rem 0.23rem;
+          position: relative;
+          .lt_box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.15);
+          }
+          .lb_box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.15);
+          }
+          .rb_box {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0.6rem;
+            height: 0.6rem;
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .min_box {
+            width: 0.1rem;
+            height: 0.1rem;
+            background-color: #ce3964;
+          }
+          .title {
+            font-size: 0.18rem;
+            color: #333;
+            margin-top: 0.15rem;
+          }
+          .list {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+            .introduction_item {
+              width: 3.75rem;
+              margin-right: 0.8rem;
+              display: flex;
+              justify-content: space-between;
+              &:nth-child(2n) {
+                margin-right: 0;
+              }
+              .img {
+                width: 0.96rem;
+                height: 0.78rem;
+                > img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .item_right {
+                width: 2.71rem;
+                .title_item {
+                  font-size: 0.18rem;
+                  color: #333;
+                  line-height: 0.2rem;
+                }
+                .text_item {
+                  font-size: 0.16rem;
+                  font-family: "squarepixelfont";
+                  color: #666;
+                  line-height: 0.2rem;
+                  margin-top: 0.16rem;
+                }
+              }
+            }
+          }
+        }
+        .investment_company {
+          width: 100%;
+          min-height: 2rem;
+          background-color: #fff;
+          box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.1);
+          margin-top: 0.55rem;
+          padding: 0.23rem 0.34rem 1rem 0.23rem;
+          position: relative;
+          .lt_box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.1);
+          }
+          .lb_box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.2);
+          }
+          .rb_box {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0.6rem;
+            height: 0.6rem;
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .min_box {
+            width: 0.1rem;
+            height: 0.1rem;
+            background-color: #ce3964;
+          }
+          .title {
+            font-size: 0.18rem;
+            color: #333;
+            margin-top: 0.15rem;
+          }
+          .list {
+            display: flex;
+            flex-wrap: wrap;
+            .investment_item {
+              width: 50%;
+              margin-top: 0.15rem;
+              margin-bottom: 0.4rem;
+              cursor: pointer;
+              .item_top {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                > img {
+                  width: 0.5rem;
+                  height: 0.5rem;
+                  border-radius: 50%;
+                }
+                .investment_item_title {
+                  margin-left: 0.22rem;
+                  font-size: 0.16rem;
+                  color: #666;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                }
+              }
+              .item_bom {
+                height: 0.04rem;
+                margin-top: 0.1rem;
+                .item_bom_line {
+                  width: 0;
+                  height: 0.04rem;
+                }
+              }
+              &:hover {
+                .item_bom {
+                  .item_bom_line {
+                    background-color: #ce3964;
+                    box-shadow: 0px 0px 10px rgba(231, 156, 178, 0.45);
+                    animation: extend 0.5s linear forwards;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .recent_investment {
+          width: 100%;
+          min-height: 2.5rem;
+          background-color: #fff;
+          box-shadow: 0px 0px 10px rgba(206, 57, 100, 0.1);
+          margin-top: 0.55rem;
+          padding: 0.23rem 0.34rem 1rem 0.23rem;
+          position: relative;
+          .lt_box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.1);
+          }
+          .lb_box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0.82rem;
+            height: 0.82rem;
+            background-color: rgba(231, 156, 178, 0.05);
+          }
+          .rb_box {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0.6rem;
+            height: 0.6rem;
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .min_box {
+            width: 0.1rem;
+            height: 0.1rem;
+            background-color: #ce3964;
+          }
+          .title {
+            font-size: 0.18rem;
+            color: #333;
+            margin-top: 0.15rem;
+          }
+          .list {
+            margin-top: 0.12rem;
+            .recent_item {
+              display: flex;
+              cursor: pointer;
+              .recent_item_left {
+                width: 0.1rem;
+                position: relative;
+                top: 0.05rem;
+                .dian {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 0.1rem;
+                  height: 0.1rem;
+                  border-radius: 50%;
+                  background-color: #ce3964;
+                  z-index: 1;
+                  transform: scale(1);
+                  transition: all 0.2s;
+                }
+                .box {
+                  position: absolute;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 1px;
+                  height: 100%;
+                  border-left: 1px dashed #e79cb2;
+                }
+              }
+              .recent_item_right {
+                flex: 1;
+                margin-left: 0.22rem;
+                padding-bottom: 0.1rem;
+                // font-family: "PoppinsRegular";
+                .time {
+                  font-size: 0.14rem;
+                  color: #666;
+                }
+                .text {
+                  font-size: 0.16rem;
+                  margin-top: 0.05rem;
+                  color: #666;
+                  > img {
+                    width: 0.2rem;
+                    height: 0.2rem;
+                    border-radius: 50%;
+                    margin-right: 0.05rem;
+                  }
+                }
+                .user {
+                  display: flex;
+                  align-items: center;
+                  > img {
+                    width: 0.2rem;
+                    height: 0.2rem;
+                    border-radius: 50%;
+                    margin-right: 0.05rem;
+                  }
+                  .name {
+                    font-size: 0.16rem;
+                    color: #666;
+                  }
+                }
+                .investors {
+                  display: flex;
+                  flex-wrap: wrap;
+                  .institutions {
+                    margin-right: 0.1rem;
+                    color: #ce3964;
+                  }
+                  .investors_item {
+                    flex-wrap: wrap;
+                    margin-right: 0.2rem;
+                  }
+                }
+              }
+              &:hover {
+                .recent_item_left {
+                  .dian {
+                    transform: scale(1.6);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .mechanismdetails_right {
+      width: 6rem;
+      padding-top: 0.8rem;
+      padding-left: 0.4rem;
+      padding-right: 1.5rem;
+      .title {
+        font-size: 0.32rem;
+        line-height: 0.32rem;
+        color: #000;
+        // font-weight: 700;
+      }
+      .list {
+        margin-top: 0.4rem;
+        .mechanism_list_item {
+          // width: 3.8rem;
+          height: 2.8rem;
+          background-color: #fff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+          margin-bottom: 0.5rem;
+          padding: 0.3rem 0.2rem;
+          color: #333;
+          position: relative;
+
+          .title {
+            display: flex;
+            align-items: center;
+            > img {
+              width: 0.6rem;
+              height: 0.6rem;
+              margin-right: 0.1rem;
+            }
+            .tit {
+              // font-family: "courbd";
+              font-size: 0.24rem;
+              line-height: 0.24rem;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              font-weight: 700;
+              // display: flex;
+              // justify-content: space-between;
+              // flex-direction: column;
+            }
+          }
+          .follow {
+            margin: 0.2rem 0;
+            display: flex;
+            justify-content: flex-end;
+            .follow_btn {
+              width: 1.27rem;
+              height: 0.36rem;
+              background: url("../../assets/img/mechanism/followbg.png");
+              background-size: 100% 100%;
+              text-align: center;
+              line-height: 0.4rem;
+              font-size: 0.18rem;
+              // font-family: "courbd";
+              cursor: default;
+              font-weight: 700;
+            }
+          }
+          .invest {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 0.2rem;
+            .invest_item {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              .invest_item_title {
+                font-size: 0.18rem;
+              }
+              .invest_item_num {
+                // font-family: "courbd";
+                font-size: 0.24rem;
+                margin-top: 0.1rem;
+                font-weight: 700;
+              }
+            }
+          }
+          .xian {
+            width: 100%;
+            height: 1px;
+            background-color: #cccccc;
+            margin: 0.15rem 0;
+          }
+          .recent {
+            font-size: 0.18rem;
+            color: #666;
+            display: flex;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            .recent_info {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              .ant-statistic {
+                margin: 0 5px;
+                .ant-statistic-content {
+                  font-size: 0.18rem;
+                  color: #666;
+                }
+              }
+            }
+          }
+          .bom_box {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0.1rem;
+          }
+
+          &:hover {
+            background-color: #ce3964;
+            .title {
+              color: #fff;
+            }
+            .invest {
+              color: #fff;
+            }
+            .recent {
+              color: rgba(255, 255, 255, 0.7);
+              .recent_info {
+                color: rgba(255, 255, 255, 0.7);
+              }
+            }
+            .bom_box {
+              background: url("../../assets/img/mechanism/hover_bom.png");
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

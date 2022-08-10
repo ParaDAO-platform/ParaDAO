@@ -1,0 +1,280 @@
+.kyc {
+  .kyc-page {
+    color: #333;
+    background-color: rgba(248, 226, 232, 0.2);
+    min-height: calc(100vh - 2.6rem);
+    display: flex;
+    justify-content: center;
+    font-family: BinancePlex, Arial, sans-serif !important;
+    .kyc-page-left {
+      width: 2.5rem;
+    }
+    .kyc-page-right {
+      width: 9.5rem;
+      padding-top: 0.5rem;
+      .kyc-page-right-top {
+        display: flex;
+        align-items: center;
+        font-size: 0.18rem;
+        color: #808080;
+        .icon {
+          margin: 0 0.1rem;
+        }
+      }
+      .kyc-submit-form {
+        width: 100%;
+        color: white;
+        margin: 0 auto;
+        margin-top: 0.6rem;
+        padding-bottom: 1rem;
+        // border-bottom: 1px solid #55545e;
+        .kyc-form {
+          // .ant-col {
+          > .ant-row {
+            height: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            > .ant-col {
+              width: 4.5rem;
+              max-width: 4.5rem;
+              // padding-left: 1.6rem;
+            }
+            .category-select {
+              width: 4.5rem;
+              > span {
+                color: #333;
+              }
+              // margin-top: .2rem;
+              .category-select-option {
+                width: 2rem;
+              }
+            }
+          }
+          .upload-row {
+            > .ant-row {
+              height: 1.9rem;
+            }
+          }
+          .kyc-title-row {
+            height: 0.5rem;
+          }
+          .kyc-title {
+            width: 100%;
+            margin: 0 auto;
+            .title-left {
+              color: #666666;
+              width: 100%;
+              display: flex;
+              .kyc-name {
+                width: 1.6rem;
+                font-weight: 700;
+                position: relative;
+                font-size: 0.24rem;
+                color: #000;
+                font-weight: 700;
+                .min_box {
+                  width: 0.1rem;
+                  height: 0.1rem;
+                  background-color: #ce3964;
+                  position: absolute;
+                  top: 0.1rem;
+                  z-index: -1;
+                }
+              }
+              .kyc-tip {
+                font-size: 0.16rem;
+              }
+            }
+          }
+          .ant-select-selector,
+          .ant-select-selection-search-input,
+          .ant-input {
+            background-color: #fff !important;
+            border: 1px solid #e79cb2;
+            width: 4.5rem;
+            height: 0.6rem;
+            font-size: 0.24rem;
+            padding: 0 0.1rem;
+            color: #333;
+            &:hover {
+              border: 1px solid #e79cb2;
+              padding: 0 0.1rem;
+            }
+            .ant-select-selection-item {
+              line-height: 0.6rem;
+            }
+          }
+
+          label {
+            color: #333;
+            font-size: 0.18rem;
+            font-weight: 700;
+          }
+          .photo-upload-box {
+            padding-top: 3rem;
+            .kyc-upload-button {
+              width: 1.2rem;
+              height: 0.4rem;
+              font-size: 0.14rem;
+              color: #000;
+              background: url("../../assets/img/userdrawer/out.png");
+              background-size: 100% 100%;
+              text-align: center;
+              line-height: 0.4rem;
+              border: none;
+              cursor: pointer;
+              padding: 0;
+            }
+          }
+
+          //上传
+          .upload-row {
+            margin-top: 0.3rem;
+            height: 4rem;
+            // display: flex;
+            .ant-row {
+              height: 4rem !important;
+              margin-bottom: 0;
+              .upload-pic-show {
+                width: 3rem;
+                height: 3rem;
+                background-color: #fff;
+                > img {
+                  width: 3rem;
+                  height: 3rem;
+                }
+              }
+            }
+
+            .ant-row {
+              height: 3.5rem;
+              // display: flex;
+              // flex-direction: column;
+            }
+            .upload-hold-photo {
+              width: 3rem;
+              .ant-upload,
+              .ant-upload-select,
+              .ant-upload-select-picture-card {
+                width: 3rem;
+                height: 3rem;
+              }
+            }
+          }
+          .kyc_xian {
+            width: 100%;
+            height: 1px;
+            background-color: #eee;
+          }
+          .kyc-submit-box {
+            width: 100%;
+            margin-top: 0.4rem;
+            display: flex;
+            justify-content: flex-end;
+            .kyc-submit-button {
+              width: 1.2rem;
+              height: 0.4rem;
+              font-size: 0.14rem;
+              color: #000;
+              background: url("../../assets/img/userdrawer/out.png");
+              background-size: 100% 100%;
+              text-align: center;
+              line-height: 0.4rem;
+              border: none;
+              cursor: pointer;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ant-select-dropdown {
+  background-color: #383737;
+  .ant-select-item,
+  .ant-select-item-option,
+  .ant-select-item-option-active {
+    font-weight: 700;
+    color: white;
+    background-color: #383737;
+  }
+}
+
+//提交成功弹窗
+.kyc-submit {
+  width: 4.56rem !important;
+  .ant-modal-content {
+    width: 100%;
+    .ant-modal-body {
+      padding: 0;
+      width: 4.56rem;
+      height: 3.6rem;
+      background: url("../../assets/img/user/success.png");
+      background-size: 100% 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      .succeed-title {
+        font-size: 0.28rem;
+        font-weight: bold;
+        color: #fff;
+      }
+      .succeed-pic {
+        margin-top: 0.1rem;
+        > img {
+          width: 1rem;
+          height: 1rem;
+        }
+      }
+      .upload_successful_text {
+        width: 3rem;
+        font-size: 0.2rem;
+        color: #fff;
+        text-align: center;
+        margin-top: 0.2rem;
+      }
+      .btn {
+        width: 3.6rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        text-align: center;
+        background: url("../../assets/img/user/successbtnimg.png");
+        background-size: 100% 100%;
+        font-size: 0.16rem;
+        color: #fff;
+        margin-top: 0.4rem;
+        cursor: pointer;
+      }
+      .bg_img {
+        width: 5.24rem;
+        height: 2.8rem;
+        background: #fff url("../../assets/img/user/successbgtop.png");
+        background-size: 100% 100%;
+        position: absolute;
+        top: -0.38rem;
+        left: 0.87rem;
+        z-index: -1;
+      }
+    }
+  }
+  .confirm {
+    width: 100%;
+    height: 0.5rem;
+    border: 1px solid #fad972;
+    color: #fad972;
+    cursor: pointer;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.08rem;
+    margin-top: 0.5rem;
+  }
+}
+//错误提示框
+.ant-form-item-explain,
+.ant-form-item-explain-error {
+  width: 3.5rem;
+}

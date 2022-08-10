@@ -1,0 +1,144 @@
+.dashboard {
+  .dashboard_con {
+    max-width: 19.2rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    .con_left {
+      width: 3.5rem;
+
+      height: 100%;
+      padding: 0.3rem 0;
+      .search {
+        width: 100%;
+        height: 0.48rem;
+        padding: 0 0.2rem;
+        .search_input {
+          width: 100%;
+          background-color: #fff;
+          height: 0.48rem;
+          box-shadow: none !important;
+          border-radius: 0.1rem;
+          .ant-input-prefix {
+            .search_icon {
+              width: 0.2rem;
+            }
+          }
+        }
+      }
+      .con_left_list {
+        margin-top: 0.2rem;
+        .con_left_list_item {
+          font-size: 0.2rem;
+          padding: 0.1rem 0.2rem;
+          color: #000;
+        }
+        .con_left_list_item_active {
+          color: #ce3964;
+        }
+      }
+    }
+    .con_right {
+      flex: 1;
+      min-height: calc(100vh - 3.26rem);
+      padding: 0.3rem 0.2rem;
+      background-color: #fff;
+      .one_line {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .one_box {
+          width: 3rem;
+          height: 2rem;
+          border: 1px solid #bbbbbb;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .ant-statistic {
+            text-align: center;
+            .ant-statistic-title {
+              font-size: 0.2rem;
+              color: #111;
+            }
+            .ant-statistic-content {
+              font-size: 0.36rem;
+              font-weight: 700;
+              color: #111;
+            }
+          }
+        }
+      }
+      .two_line {
+        width: 100%;
+        margin-top: 0.25rem;
+        display: flex;
+        justify-content: space-between;
+        .round_amount,
+        .financing_funds {
+          width: 7rem;
+          height: 5rem;
+          border: 1px solid #bbbbbb;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+          padding: 0.2rem;
+          .two_top {
+            height: 0.4rem;
+            font-size: 0.2rem;
+            font-weight: 700;
+            color: #000;
+            display: flex;
+            justify-content: space-between;
+            .two_right {
+              span {
+                display: inline-block;
+                margin-left: 0.2rem;
+                cursor: pointer;
+              }
+            }
+          }
+          .charts {
+            width: 100%;
+            height: 4rem;
+            padding: 0.1rem 0 0.1rem 0.2rem;
+          }
+        }
+      }
+      .therr_line {
+        margin-top: 0.25rem;
+        display: flex;
+        justify-content: space-between;
+        .financing_event,
+        .projects,
+        .operational {
+          width: 4.8rem;
+          height: 6rem;
+          border: 1px solid #bbbbbb;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+          padding: 0.2rem;
+          .title {
+            font-size: 0.2rem;
+            font-weight: 700;
+            color: #000;
+          }
+          .event_con {
+            margin-top: 0.1rem;
+            width: 100%;
+            height: 5rem;
+            overflow: auto;
+            &::-webkit-scrollbar {
+              width: 0;
+            }
+            .event_item {
+              display: flex;
+              .event_item_left {
+                width: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
